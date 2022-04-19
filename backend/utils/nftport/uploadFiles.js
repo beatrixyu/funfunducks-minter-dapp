@@ -23,6 +23,7 @@ async function main() {
       if (regex.test(file)) {
         const fileName = path.parse(file).name;
         let jsonFile = fs.readFileSync(`${basePath}/build/json/${fileName}.json`);
+        console.log(`${basePath}/build/json/${fileName}.json`);
         let metaData = JSON.parse(jsonFile);
 
         if(!metaData.image.includes('https://')) {
