@@ -1,9 +1,9 @@
 const contractAddress = "0xAF309caC01979584f6ffDd9220B57a7736E92C10"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the FunFunDucks NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = ' FunFunDucks Club is an NFT collection created by Bea M. Yu <a href="https://beatrixyu.github.io/bea-portfolio/" target="_blank" rel="noopener noreferrer">Bea M Yu</a> from Metropolis Shanghai, who works as a software developer and a social media content creator in Düsseldorf.';
+const welcome_p = ' FunFunDucks Club is an NFT collection created by Bea M. Yu <a href="https://beatrixyu.github.io/bea-portfolio/" target="_blank" rel="noopener noreferrer">Bea M Yu</a> from Metropolis Shanghai, China, who works as a software developer and a social media content creator in Düsseldorf, Germany now.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
