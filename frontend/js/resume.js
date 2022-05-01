@@ -36,9 +36,9 @@ let oneContact = true;
 // arrWasatea[6].style.opacity = "0";
 // arrWasatea[6].style.transform = "rotateZ(45deg)";
 
-// arrWasateaHead[0].style.opacity = "0";
-// arrWasateaHead[0].style.transform = "rotateZ(45deg)";
-// arrWasateaHead[0].style.left = "100%";
+//  arrWasateaHead[0].style.opacity = "0";
+//  arrWasateaHead[0].style.transform = "rotateZ(45deg)";
+//  arrWasateaHead[0].style.left = "100%";
 
 function headerMove() {
   console.log('öööö')
@@ -50,6 +50,8 @@ function headerMove() {
     navClass.classList.remove("toggleMenu");
   }
 }
+window.addEventListener("scroll", headerMove);
+
 
 //header move change
 window.onscroll = scrollFunction;
@@ -301,18 +303,18 @@ function scrollFunction() {
 // window.addEventListener("scroll", dinasoFunc);
 
 // //wasatea head
-// // function wasaHeadFunc() {
-// //   let scrollPosition = window.pageYOffset;
-// //   if (scrollPosition > 5000) {
-// //     setTimeout(() => {
-// //       arrWasateaHead[0].style.opacity = "1";
-// //       arrWasateaHead[0].style.transform = "rotateZ(0deg)";
-// //       arrWasateaHead[0].style.transition = "all 0.7s ease-in-out";
-// //       arrWasateaHead[0].style.left = "0%";
-// //     }, 100);
-// //   }
-// // }
-// // window.addEventListener("scroll", wasaHeadFunc);
+// function wasaHeadFunc() {
+//    let scrollPosition = window.pageYOffset;
+//    if (scrollPosition > 5000) {
+//      setTimeout(() => {
+//       arrWasateaHead[0].style.opacity = "1";
+//       arrWasateaHead[0].style.transform = "rotateZ(0deg)";
+//       arrWasateaHead[0].style.transition = "all 0.7s ease-in-out";
+//       arrWasateaHead[0].style.left = "0%";
+//      }, 100);
+//    }
+//  }
+// window.addEventListener("scroll", wasaHeadFunc);
 
 // //wasa logo
 // function wasaLogoFunc() {
