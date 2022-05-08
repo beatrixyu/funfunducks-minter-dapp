@@ -41,12 +41,11 @@ let oneContact = true;
 //  arrWasateaHead[0].style.left = "100%";
 
 function headerMove() {
-  console.log('öööö')
   let scrollPosition = window.pageYOffset;
   let navClass = document.querySelector(".logo");
-  if (scrollPosition > 15 && navClass.className == "logo") {
+  if (scrollPosition > 5 && navClass.className == "logo") {
     navClass.classList.add("toggleMenu");
-  } else if (scrollPosition < 15 && navClass.className == "logo toggleMenu") {
+  } else if (scrollPosition < 5 && navClass.className == "logo toggleMenu") {
     navClass.classList.remove("toggleMenu");
   }
 }
@@ -57,17 +56,19 @@ window.addEventListener("scroll", headerMove);
 window.onscroll = scrollFunction;
 // window.onload = mainContent;
 function scrollFunction() {
-  if (window.pageYOffset > 10) {
+  if (window.pageYOffset > 5) {
     document.querySelector(".logo").style.display = "flex";
     document.querySelector(".logo").style.justifyContent = "flex-start";
-    document.getElementById("logo-img").style.width = "60px";
+    // document.getElementById("logo-img").style.width = "60px";
+    document.getElementById("logo-img").style.width = "0px";
     document.getElementById("logo-img").style.marginTop = "0%";
     document.getElementById("logo-img").style.marginBottom = "0%";
     document.getElementById("logo-img").style.transition = "all 1s ease-in-out";
-    document.querySelector(".logo-text").style.width = "100%";
-    document.querySelector(".logo-text").style.fontSize = "30px";
-    document.querySelector(".logo-text").style.transition =
-      "all 1s ease-in-out";
+    // document.querySelector(".logo-text").style.width = "100%";
+    // document.querySelector(".logo-text").style.fontSize = "30px";
+    // document.querySelector(".logo-text").style.transition =
+    //   "all 1s ease-in-out";
+
     document.querySelector("#backlinkExp").style.fontSize = "22px";
     document.querySelector("#backlinkPro").style.fontSize = "22px";
     document.querySelector("#backlinkCon").style.fontSize = "22px";
@@ -82,14 +83,16 @@ function scrollFunction() {
       "rgba(250, 250, 250, 0.9)";
 
     document.querySelector("header").style.transition = "all 1s ease-in-out";
-  } else if (window.pageYOffset < 200) {
+  } else if (window.pageYOffset < 50) {
     document.querySelector(".logo").style.display = "flex";
     document.getElementById("logo-img").style.width = "180px";
+    document.getElementById("logo-img").style.width = "100%";
+
     document.getElementById("logo-img").style.marginBottom = "40%";
     document.getElementById("logo-img").style.marginTop = "40%";
-    document.querySelector(".logo-text").style.fontSize = "100px";
-    document.querySelector(".logo-text").style.width = "35%";
-    document.querySelector(".logo-text").style.justifyContent = "center";
+    // document.querySelector(".logo-text").style.fontSize = "100px";
+    // document.querySelector(".logo-text").style.width = "35%";
+    // document.querySelector(".logo-text").style.justifyContent = "center";
     document.querySelector("#backlinkExp").style.fontSize = "20px";
     document.querySelector("#backlinkCon").style.fontSize = "20px";
     document.querySelector("#backlinkPro").style.fontSize = "20px";

@@ -8,9 +8,9 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: white;
+  --bg-color: #FFC703;
   --bg-color-transparent: #00163f80;
-  --font-color: #FACE45;
+  --font-color: #FFC703;
   --btn-bg-color: #FACE45;
   --accent-color: #56F4E0;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -146,7 +146,6 @@ nav {
 }
 #logo-img {
   width: 180px;
-  border-radius: 50%;
   margin-right: 20px;
   margin-top: 40%;
   margin-bottom: 40%;
@@ -165,6 +164,27 @@ nav {
 
 #headerSmallSize {
   display: none;
+}
+.cover-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(../img/topimg3.gif); */
+    background-color: #FFC703;
+    background-repeat: no-repeat;
+    letter-spacing: 3px;
+}
+
+.profile1 {
+  margin-top: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url("../img/topimg3.gif"); */
+  background-repeat: no-repeat;
+  letter-spacing: 3px;
 }
 
 /* NOT CONNECTED */
@@ -423,10 +443,14 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: absolute;
-  top: 90px;
+  position: relative;
+  top: 0px;
   left: 5rem;
   z-index: -1;
+}
+
+.splide__track {
+  height: calc(((300vh - 200px) - 0px) - 0px) !important;
 }
 
 .splide__slide {

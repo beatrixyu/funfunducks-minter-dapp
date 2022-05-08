@@ -84,13 +84,13 @@
     width: 100%;
     justify-content: flex;
   }
-  #logo-img {
+  /* #logo-img {
     width: 180px;
     border-radius: 50%;
     margin-right: 20px;
     margin-top: 40%;
     margin-bottom: 40%;
-  }
+  } */
   .logo-text {
     font-size: 100px;
     width: 35%;
@@ -147,9 +147,6 @@
       position: relative;
     }
     .logo {
-      display: none;
-    }
-    #backlink {
       display: none;
     }
   
