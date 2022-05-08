@@ -6,11 +6,11 @@
 
 :root {
   --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
+  --font-secondary: "Poppins", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #FFC703;
   --bg-color-transparent: #00163f80;
-  --font-color: #FFC703;
+  --font-color: white;
   --btn-bg-color: #FACE45;
   --accent-color: #56F4E0;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -33,7 +33,18 @@ body {
   font-family: var(--font-primary);
 }
 
+.intro-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  justify-content: center;
+}
+
 .container {
+  width: 100vh;
   display: flex;
   flex-direction: column;
   max-width: 960px;
@@ -143,13 +154,24 @@ nav {
 .logo {
   width: 100%;
   justify-content: flex;
+  align-items: center;
 }
-#logo-img {
+
+.workhardImg {
+  justify-content: center;
+  width: 100%;
+}
+
+#headerBigSize {
+  display: flex;
+  background-color: #FFC703;
+}
+/* #logo-img {
   width: 180px;
   margin-right: 20px;
   margin-top: 40%;
   margin-bottom: 40%;
-}
+} */
 .logo-text {
   font-size: 100px;
   width: 35%;
@@ -159,7 +181,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #FACE45;
+  color: #56F4E0;
 }
 
 #headerSmallSize {
@@ -192,7 +214,7 @@ nav {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0 40%;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -444,7 +466,7 @@ section {
 
 .splide {
   position: relative;
-  top: 0px;
+  top: -80vh;
   left: 5rem;
   z-index: -1;
 }
@@ -454,7 +476,7 @@ section {
 }
 
 .splide__slide {
-  border: var(--accent-color) solid;
+  border: white solid;
   border-width: 5px 10px;
 }
 
