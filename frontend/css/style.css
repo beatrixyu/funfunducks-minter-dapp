@@ -83,13 +83,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between; /*make Navigation seperate on the both side of the web*/
-  padding: 10px;
   /* the hight of the head */
   position: fixed;
   width: 100%;
   height: 100vh;
   top: 0; /*Hearder Stick on the top*/
-  background: white; /* background with 0.5 opacity */
+  background: #FFC703; /* background with 0.5 opacity */
   text-decoration: none;
   z-index: 999;
 }
@@ -209,6 +208,125 @@ nav {
   letter-spacing: 3px;
 }
 
+/* profile picture part */
+.profilecartoon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: 10%;
+}
+
+/* cartoon picture */
+.profilecartoonimg {
+  position: sticky;
+  bottom: -2rem;
+  align-self: center;
+  height: auto;
+  width: 150px;
+  top: 40%;
+  z-index: -1;
+}
+
+#introLine {
+  background-color: #5CE1E6;
+  opacity: 0.5;
+  height: 100%;
+  width: 10px;
+  z-index: -3;
+}
+
+/* hover the cartoon profile and turn out real profile */
+.profilepic {
+  position: absolute;
+  width: 250px;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  border-radius: 30%;
+  opacity: 1;
+}
+
+.profilepic2 {
+  width: 160px;
+  position: absolute;
+}
+
+.profilecartoon:hover .profilepic {
+  opacity: 0;
+  width: 0;
+}
+/* hover the cartoon profile and turn out real profile */
+
+/* personal statment part */
+#personalstatement {
+  position: absolute;
+  margin-top: 15%;
+  width: 90%;
+  color: rgb(92, 91, 91);
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-shadow: 5px 1px white;
+}
+
+#personalstatement .left{
+  width: 40%;
+  text-align: right;
+}
+
+#personalstatement .right{
+  margin-left: 60%;
+  text-align: left;
+}
+
+.openEgg3 {
+  position: absolute;
+  top: 33%;
+  width: 160px;
+  margin-left: -6.5%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .profilecartoon {
+    height: 130vh;
+  }
+  .profilecartoon h2 {
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* introduction part */
+  .profilecartoonimg {
+    width: 40px;
+    top: 50%;
+  }
+  .profilecartoon {
+    height: 110vh;
+    margin-top: 20%;
+  }
+
+  .profilepic {
+    width: 120px;
+  }
+
+  #personalstatement {
+    height: 100vh;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-shadow: 3px 1px white;
+  }
+  #personalstatement h2 {
+    line-height: 40px;
+  }
+
+  #introLine {
+    width: 8px;
+  }
+}
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
@@ -466,7 +584,7 @@ section {
 
 .splide {
   position: relative;
-  top: -80vh;
+  top: 100vh;
   left: 5rem;
   z-index: -1;
 }
