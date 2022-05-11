@@ -214,7 +214,6 @@ nav {
   align-items: center;
   height: 300vh;
   width: 100%;
-  margin-top: 10%;
 }
 
 /* cartoon picture */
@@ -230,14 +229,15 @@ nav {
 }
 
 #introLine {
-  top: 200vh;
-  background-color: #5CE1E6;
-  opacity: 0.5;
-  height: 180%;
+  top: 150vh;
+  background-color: #56F4E0;
+  opacity: 0.8;
+  height: 200%;
   width: 10px;
   z-index: -3;
   left: 50vw;
-  position: absolute;}
+  position: absolute;
+}
 
 /* hover the cartoon profile and turn out real profile */
 .profilepic {
@@ -252,8 +252,15 @@ nav {
 .profilepic2 {
   width: 160px;
   position: absolute;
-  left: 46vw;
-  top: 190%;
+  left: 46.1vw;
+  top: 200%;
+}
+
+.egg {
+  width: 160px;
+  position: absolute;
+  left: 45.9vw;
+  top: 140%;
 }
 
 .profilecartoon:hover .profilepic {
@@ -273,6 +280,7 @@ nav {
   letter-spacing: 2px;
   line-height: 50px;
   text-shadow: 5px 1px white;
+  left: -4rem;
 }
 
 #personalstatement .left{
