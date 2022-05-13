@@ -525,14 +525,7 @@
     margin-left: 60%;
     text-align: left;
   }
-  
-  .openEgg3 {
-    position: absolute;
-    top: 33%;
-    width: 160px;
-    margin-left: -6.5%;
-    z-index: 4;
-  }
+
   
   @media screen and (max-width: 768px) {
     .profilecartoon {

@@ -163,7 +163,7 @@ nav {
 
 #headerBigSize {
   display: flex;
-  background-color: #FFC703;
+  background-color: rgba(250, 250, 250);
 }
 /* #logo-img {
   width: 180px;
@@ -192,7 +192,7 @@ nav {
     align-items: center;
     flex-direction: column;
     /* background-image: url(../img/topimg3.gif); */
-    background-color: #FFC703;
+    background-color:rgba(250, 250, 250, 0.9);
     background-repeat: no-repeat;
     letter-spacing: 3px;
 }
@@ -247,11 +247,11 @@ nav {
   opacity: 1;
 }
 
-.profilepic2 {
+.openEgg {
   width: 160px;
   position: absolute;
   left: 46.1vw;
-  top: 280%;
+  top: 255%;
 }
 
 .egg {
@@ -259,6 +259,27 @@ nav {
   position: absolute;
   left: 45.9vw;
   top: 180%;
+}
+
+.moneyPig {
+  width: 180px;
+  position: absolute;
+  left: 45.5vw;
+  top: 328%;
+}
+
+.moneyBag {
+  width: 180px;
+  position: absolute;
+  left: 45.5vw;
+  top: 328%;
+}
+
+.moneyPig1 {
+  width: 180px;
+  position: absolute;
+  left: 45.5vw;
+  top: 330%;
 }
 
 .profilecartoon:hover .profilepic {
@@ -291,13 +312,7 @@ nav {
   text-align: left;
 }
 
-.openEgg3 {
-  position: absolute;
-  top: 33%;
-  width: 160px;
-  margin-left: -6.5%;
-  z-index: 4;
-}
+
 
 @media screen and (max-width: 768px) {
   .profilecartoon {
