@@ -197,7 +197,7 @@ nav {
     letter-spacing: 3px;
 }
 
-.profile1 {
+.duckBank {
   width: 100%;
   display: flex;
   align-items: center;
@@ -205,6 +205,43 @@ nav {
   /* background-image: url("../img/topimg3.gif"); */
   background-repeat: no-repeat;
   letter-spacing: 3px;
+}
+
+#hello1 {
+  margin-top: 60%;
+  position: absolute;
+}
+
+#hello2 {
+  margin-top: 65%;
+  position: absolute;
+}
+
+#hello3 {
+  margin-top: 70%;
+  position: absolute;
+}
+
+#hello4 {
+  margin-top: 80%;
+  position: absolute;
+}
+
+#hello5 {
+  margin-top: 85%;
+  position: absolute;
+}
+#hello6 {
+  margin-top: 90%;
+  position: absolute;
+}
+#hello7 {
+  margin-top: 95%;
+  position: absolute;
+}
+
+.helloWord {
+
 }
 
 .introContainer {
@@ -263,8 +300,6 @@ nav {
   left: 50vw;
   position: absolute;
 }
-
-
 
 
 

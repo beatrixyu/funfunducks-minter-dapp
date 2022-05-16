@@ -3,7 +3,14 @@ let experience = true;
 let oneSkill = true;
 let oneUnicorn = true;
 let oneStar = true;
-let oneMushroom = true;
+let hello1 = true;
+let hello2 = true;
+let hello3 = true;
+let hello4 = true;
+let hello5 = true;
+let hello6 = true;
+let hello7 = true;
+
 let oneDinaso = true;
 let oneWasa = true;
 let oneBlome = true;
@@ -112,6 +119,120 @@ function scrollFunction() {
     //   "all 1s ease-in-out";
   }
 }
+
+function helloFunc1() {
+  if (hello1 < window.innerHeight/2.5 && hello1) {
+    hello1 = false;
+    document.getElementById("hello1").style.fontSize = "0px";
+    document.getElementById("hello1").style.fontSize = "0px";
+    document.getElementById("hello1").style.marginLeft = "50%";
+    document.getElementById("hello1").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 800) {
+    document.getElementById("hello1").style.fontSize = "80px";
+    document.getElementById("hello1").style.fontSize = "80px";
+    document.getElementById("hello1").style.marginLeft = "20%";
+  }
+}
+
+function helloFunc2() {
+  if (hello2 < window.innerHeight/2.3 && hello2) {
+    hello2 = false;
+    document.getElementById("hello2").style.fontSize = "0px";
+    document.getElementById("hello2").style.fontSize = "0px";
+    document.getElementById("hello2").style.right = "50%";
+    document.getElementById("hello2").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 830) {
+    document.getElementById("hello2").style.fontSize = "80px";
+    document.getElementById("hello2").style.fontSize = "80px";
+    document.getElementById("hello2").style.right = "5%";
+  }
+}
+
+function helloFunc3() {
+  if (hello3 < window.innerHeight/2.1 && hello3) {
+    hello3 = false;
+    document.getElementById("hello3").style.fontSize = "0px";
+    document.getElementById("hello3").style.fontSize = "0px";
+    document.getElementById("hello3").style.marginLeft = "50%";
+    document.getElementById("hello3").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 860) {
+    document.getElementById("hello3").style.fontSize = "80px";
+    document.getElementById("hello3").style.fontSize = "80px";
+    document.getElementById("hello3").style.marginLeft = "10%";
+  }
+}
+
+function helloFunc4() {
+  if (hello4 < window.innerHeight/1.9 && hello4) {
+    hello4 = false;
+    document.getElementById("hello4").style.fontSize = "0px";
+    document.getElementById("hello4").style.fontSize = "0px";
+    document.getElementById("hello4").style.right = "50%";
+    document.getElementById("hello4").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 880) {
+    document.getElementById("hello4").style.fontSize = "80px";
+    document.getElementById("hello4").style.fontSize = "80px";
+    document.getElementById("hello4").style.right = "20%";
+  }
+}
+
+function helloFunc5() {
+  if (hello5 < window.innerHeight/1.7 && hello5) {
+    hello5 = false;
+    document.getElementById("hello5").style.fontSize = "0px";
+    document.getElementById("hello5").style.fontSize = "0px";
+    document.getElementById("hello5").style.marginLeft = "50%";
+    document.getElementById("hello5").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 900) {
+    document.getElementById("hello5").style.fontSize = "80px";
+    document.getElementById("hello5").style.fontSize = "80px";
+    document.getElementById("hello5").style.marginLeft = "35%";
+  }
+}
+
+function helloFunc6() {
+  if (hello6 < window.innerHeight/1.9 && hello6) {
+    hello6 = false;
+    document.getElementById("hello6").style.fontSize = "0px";
+    document.getElementById("hello6").style.fontSize = "0px";
+    document.getElementById("hello6").style.right = "50%";
+    document.getElementById("hello6").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 880) {
+    document.getElementById("hello6").style.fontSize = "80px";
+    document.getElementById("hello6").style.fontSize = "80px";
+    document.getElementById("hello6").style.right = "30%";
+  }
+}
+
+function helloFunc7() {
+  if (hello5 < window.innerHeight/1.7 && hello5) {
+    hello5 = false;
+    document.getElementById("hello7").style.fontSize = "0px";
+    document.getElementById("hello7").style.fontSize = "0px";
+    document.getElementById("hello7").style.marginLeft = "50%";
+    document.getElementById("hello7").style.transition =
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 900) {
+    document.getElementById("hello7").style.fontSize = "80px";
+    document.getElementById("hello7").style.fontSize = "80px";
+    document.getElementById("hello7").style.marginLeft = "15%";
+  }
+}
+
+window.addEventListener("scroll", helloFunc1);
+window.addEventListener("scroll", helloFunc2);
+window.addEventListener("scroll", helloFunc3);
+window.addEventListener("scroll", helloFunc4);
+window.addEventListener("scroll", helloFunc5);
+window.addEventListener("scroll", helloFunc6);
+window.addEventListener("scroll", helloFunc7);
+
 
 //personal introduction
 
@@ -270,20 +391,7 @@ function scrollFunction() {
 //     document.getElementById("starExp").style.marginLeft = "20%";
 //   }
 // }
-// function mushroomFunc() {
-//   if (oneMushroom < window.innerHeight / 1.5 && oneMushroom) {
-//     oneMushroom = false;
-//     document.getElementById("mushroomExp").style.width = "0px";
-//     document.getElementById("mushroomExp").style.height = "0px";
-//     document.getElementById("mushroomExp").style.marginLeft = "50%";
-//     document.getElementById("mushroomExp").style.transition =
-//       "all 1.5s ease-in-out";
-//   } else if (window.pageYOffset > 3800) {
-//     document.getElementById("mushroomExp").style.width = "80px";
-//     document.getElementById("mushroomExp").style.height = "80px";
-//     document.getElementById("mushroomExp").style.marginLeft = "20%";
-//   }
-// }
+
 
 // function dinasoFunc() {
 //   if (oneDinaso < window.innerHeight / 2 && oneDinaso) {
@@ -302,7 +410,7 @@ function scrollFunction() {
 
 // window.addEventListener("scroll", unicornFunc);
 // window.addEventListener("scroll", starFunc);
-// window.addEventListener("scroll", mushroomFunc);
+
 // window.addEventListener("scroll", dinasoFunc);
 
 // //wasatea head
