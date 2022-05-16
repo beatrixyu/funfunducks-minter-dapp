@@ -207,23 +207,50 @@ nav {
   letter-spacing: 3px;
 }
 
-/* profile picture part */
-.profilecartoon {
+.introContainer {
   align-items: center;
   height: 500vh;
   width: 100%;
 }
 
-/* cartoon picture */
+.eggContainer {
+  height: 150vh;
+  width: 100%;
+  position: absolute;
+  top: 25vh;
+}
+
+.egg {
+  position: sticky;
+  top: 30vh;
+  align-self: center;
+  height: auto;
+  width: 170px;
+  left: 45.6vw;
+  z-index: 1;
+}
+
+.duckyContainer {
+  height: 318vh;
+  width: 100%;
+  top: 25vh;
+  position: absolute;
+}
+
 .yellowDucky {
   position: sticky;
-  bottom: -2rem;
+  top: 30vh;
   align-self: center;
   height: auto;
   width: 150px;
-  top: 20%;
-  z-index: -1;
   left: 46.5vw;
+}
+
+.openEgg {
+  width: 170px;
+  position: absolute;
+  left: 45.9vw;
+  top: 325vh;
 }
 
 #introLine {
@@ -237,29 +264,9 @@ nav {
   position: absolute;
 }
 
-/* hover the cartoon profile and turn out real profile */
-.profilepic {
-  position: absolute;
-  width: 250px;
-  pointer-events: none;
-  transition: all 0.2s ease;
-  border-radius: 30%;
-  opacity: 1;
-}
 
-.openEgg {
-  width: 160px;
-  position: absolute;
-  left: 46.1vw;
-  top: 255%;
-}
 
-.egg {
-  width: 160px;
-  position: absolute;
-  left: 45.9vw;
-  top: 180%;
-}
+
 
 .moneyPig {
   width: 180px;
