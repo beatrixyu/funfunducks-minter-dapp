@@ -10,6 +10,7 @@ let hello4 = true;
 let hello5 = true;
 let hello6 = true;
 let hello7 = true;
+let hello8 = true;
 
 let oneDinaso = true;
 let oneWasa = true;
@@ -127,7 +128,7 @@ function helloFunc1() {
     document.getElementById("hello1").style.fontSize = "0px";
     document.getElementById("hello1").style.marginLeft = "50%";
     document.getElementById("hello1").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 800) {
     document.getElementById("hello1").style.fontSize = "80px";
     document.getElementById("hello1").style.fontSize = "80px";
@@ -142,11 +143,11 @@ function helloFunc2() {
     document.getElementById("hello2").style.fontSize = "0px";
     document.getElementById("hello2").style.right = "50%";
     document.getElementById("hello2").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 830) {
     document.getElementById("hello2").style.fontSize = "80px";
     document.getElementById("hello2").style.fontSize = "80px";
-    document.getElementById("hello2").style.right = "5%";
+    document.getElementById("hello2").style.right = "25%";
   }
 }
 
@@ -157,7 +158,7 @@ function helloFunc3() {
     document.getElementById("hello3").style.fontSize = "0px";
     document.getElementById("hello3").style.marginLeft = "50%";
     document.getElementById("hello3").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 860) {
     document.getElementById("hello3").style.fontSize = "80px";
     document.getElementById("hello3").style.fontSize = "80px";
@@ -172,7 +173,7 @@ function helloFunc4() {
     document.getElementById("hello4").style.fontSize = "0px";
     document.getElementById("hello4").style.right = "50%";
     document.getElementById("hello4").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 880) {
     document.getElementById("hello4").style.fontSize = "80px";
     document.getElementById("hello4").style.fontSize = "80px";
@@ -187,7 +188,7 @@ function helloFunc5() {
     document.getElementById("hello5").style.fontSize = "0px";
     document.getElementById("hello5").style.marginLeft = "50%";
     document.getElementById("hello5").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 900) {
     document.getElementById("hello5").style.fontSize = "80px";
     document.getElementById("hello5").style.fontSize = "80px";
@@ -202,7 +203,7 @@ function helloFunc6() {
     document.getElementById("hello6").style.fontSize = "0px";
     document.getElementById("hello6").style.right = "50%";
     document.getElementById("hello6").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 880) {
     document.getElementById("hello6").style.fontSize = "80px";
     document.getElementById("hello6").style.fontSize = "80px";
@@ -211,17 +212,31 @@ function helloFunc6() {
 }
 
 function helloFunc7() {
-  if (hello5 < window.innerHeight/1.7 && hello5) {
-    hello5 = false;
+  if (hello7 < window.innerHeight/1.7 && hello7) {
+    hello7 = false;
     document.getElementById("hello7").style.fontSize = "0px";
     document.getElementById("hello7").style.fontSize = "0px";
     document.getElementById("hello7").style.marginLeft = "50%";
     document.getElementById("hello7").style.transition =
-      "all .5s ease-in-out";
+      "all 1.5s ease-in-out";
   } else if (window.pageYOffset > 900) {
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.marginLeft = "15%";
+  }
+}
+function helloFunc8() {
+  if (hello8 < window.innerHeight/1.5 && hello8) {
+    hello8 = false;
+    document.getElementById("hello8").style.fontSize = "0px";
+    document.getElementById("hello8").style.fontSize = "0px";
+    document.getElementById("hello8").style.right = "50%";
+    document.getElementById("hello8").style.transition =
+      "all 1.5s ease-in-out";
+  } else if (window.pageYOffset > 1200) {
+    document.getElementById("hello8").style.fontSize = "80px";
+    document.getElementById("hello8").style.fontSize = "80px";
+    document.getElementById("hello8").style.right = "5%";
   }
 }
 
@@ -232,6 +247,7 @@ window.addEventListener("scroll", helloFunc4);
 window.addEventListener("scroll", helloFunc5);
 window.addEventListener("scroll", helloFunc6);
 window.addEventListener("scroll", helloFunc7);
+window.addEventListener("scroll", helloFunc8);
 
 
 //personal introduction
