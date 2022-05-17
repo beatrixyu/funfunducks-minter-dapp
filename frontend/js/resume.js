@@ -128,8 +128,8 @@ function helloFunc1() {
     document.getElementById("hello1").style.fontSize = "0px";
     document.getElementById("hello1").style.marginLeft = "50%";
     document.getElementById("hello1").style.transition =
-      "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 800) {
+      "all .5s ease-in-out";
+  } else if (window.pageYOffset > 150) {
     document.getElementById("hello1").style.fontSize = "80px";
     document.getElementById("hello1").style.fontSize = "80px";
     document.getElementById("hello1").style.marginLeft = "20%";
@@ -143,8 +143,8 @@ function helloFunc2() {
     document.getElementById("hello2").style.fontSize = "0px";
     document.getElementById("hello2").style.right = "50%";
     document.getElementById("hello2").style.transition =
-      "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 830) {
+      "all .8s ease-in-out";
+  } else if (window.pageYOffset > 200) {
     document.getElementById("hello2").style.fontSize = "80px";
     document.getElementById("hello2").style.fontSize = "80px";
     document.getElementById("hello2").style.right = "25%";
@@ -158,8 +158,8 @@ function helloFunc3() {
     document.getElementById("hello3").style.fontSize = "0px";
     document.getElementById("hello3").style.marginLeft = "50%";
     document.getElementById("hello3").style.transition =
-      "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 860) {
+      "all 1s ease-in-out";
+  } else if (window.pageYOffset > 250) {
     document.getElementById("hello3").style.fontSize = "80px";
     document.getElementById("hello3").style.fontSize = "80px";
     document.getElementById("hello3").style.marginLeft = "10%";
@@ -173,8 +173,8 @@ function helloFunc4() {
     document.getElementById("hello4").style.fontSize = "0px";
     document.getElementById("hello4").style.right = "50%";
     document.getElementById("hello4").style.transition =
-      "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 880) {
+      "all 1.2s ease-in-out";
+  } else if (window.pageYOffset > 300) {
     document.getElementById("hello4").style.fontSize = "80px";
     document.getElementById("hello4").style.fontSize = "80px";
     document.getElementById("hello4").style.right = "20%";
@@ -188,8 +188,8 @@ function helloFunc5() {
     document.getElementById("hello5").style.fontSize = "0px";
     document.getElementById("hello5").style.marginLeft = "50%";
     document.getElementById("hello5").style.transition =
-      "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 900) {
+      "all 1.4s ease-in-out";
+  } else if (window.pageYOffset > 350) {
     document.getElementById("hello5").style.fontSize = "80px";
     document.getElementById("hello5").style.fontSize = "80px";
     document.getElementById("hello5").style.marginLeft = "35%";
@@ -204,7 +204,7 @@ function helloFunc6() {
     document.getElementById("hello6").style.right = "50%";
     document.getElementById("hello6").style.transition =
       "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 880) {
+  } else if (window.pageYOffset > 400) {
     document.getElementById("hello6").style.fontSize = "80px";
     document.getElementById("hello6").style.fontSize = "80px";
     document.getElementById("hello6").style.right = "30%";
@@ -219,7 +219,7 @@ function helloFunc7() {
     document.getElementById("hello7").style.marginLeft = "50%";
     document.getElementById("hello7").style.transition =
       "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 900) {
+  } else if (window.pageYOffset > 500) {
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.marginLeft = "15%";
@@ -233,10 +233,10 @@ function helloFunc8() {
     document.getElementById("hello8").style.right = "50%";
     document.getElementById("hello8").style.transition =
       "all 1.5s ease-in-out";
-  } else if (window.pageYOffset > 1200) {
+  } else if (window.pageYOffset > 600) {
     document.getElementById("hello8").style.fontSize = "80px";
     document.getElementById("hello8").style.fontSize = "80px";
-    document.getElementById("hello8").style.right = "5%";
+    document.getElementById("hello8").style.right = "10%";
   }
 }
 
