@@ -128,7 +128,7 @@ function helloFunc1() {
     document.getElementById("hello1").style.fontSize = "0px";
     document.getElementById("hello1").style.marginLeft = "50%";
     document.getElementById("hello1").style.transition =
-      "all .5s ease-in-out";
+      "all 1s ease-in-out";
   } else if (window.pageYOffset > 150) {
     document.getElementById("hello1").style.fontSize = "80px";
     document.getElementById("hello1").style.fontSize = "80px";
@@ -143,7 +143,7 @@ function helloFunc2() {
     document.getElementById("hello2").style.fontSize = "0px";
     document.getElementById("hello2").style.right = "50%";
     document.getElementById("hello2").style.transition =
-      "all .8s ease-in-out";
+      "all 1s ease-in-out";
   } else if (window.pageYOffset > 200) {
     document.getElementById("hello2").style.fontSize = "80px";
     document.getElementById("hello2").style.fontSize = "80px";
@@ -158,7 +158,7 @@ function helloFunc3() {
     document.getElementById("hello3").style.fontSize = "0px";
     document.getElementById("hello3").style.marginLeft = "50%";
     document.getElementById("hello3").style.transition =
-      "all 1s ease-in-out";
+      "all 1.2s ease-in-out";
   } else if (window.pageYOffset > 250) {
     document.getElementById("hello3").style.fontSize = "80px";
     document.getElementById("hello3").style.fontSize = "80px";
@@ -173,7 +173,7 @@ function helloFunc4() {
     document.getElementById("hello4").style.fontSize = "0px";
     document.getElementById("hello4").style.right = "50%";
     document.getElementById("hello4").style.transition =
-      "all 1.2s ease-in-out";
+      "all 1.3s ease-in-out";
   } else if (window.pageYOffset > 300) {
     document.getElementById("hello4").style.fontSize = "80px";
     document.getElementById("hello4").style.fontSize = "80px";
@@ -218,7 +218,7 @@ function helloFunc7() {
     document.getElementById("hello7").style.fontSize = "0px";
     document.getElementById("hello7").style.marginLeft = "50%";
     document.getElementById("hello7").style.transition =
-      "all 1.5s ease-in-out";
+      "all 1.7s ease-in-out";
   } else if (window.pageYOffset > 500) {
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.fontSize = "80px";
@@ -232,7 +232,7 @@ function helloFunc8() {
     document.getElementById("hello8").style.fontSize = "0px";
     document.getElementById("hello8").style.right = "50%";
     document.getElementById("hello8").style.transition =
-      "all 1.5s ease-in-out";
+      "all 1.8s ease-in-out";
   } else if (window.pageYOffset > 600) {
     document.getElementById("hello8").style.fontSize = "80px";
     document.getElementById("hello8").style.fontSize = "80px";
