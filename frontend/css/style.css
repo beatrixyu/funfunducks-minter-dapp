@@ -244,10 +244,6 @@ nav {
   position: absolute;
 }
 
-.helloWord {
-
-}
-
 .introContainer {
   align-items: center;
   height: 500vh;
@@ -255,10 +251,10 @@ nav {
 }
 
 .eggContainer {
-  height: 150vh;
+  height: 180vh;
   width: 100%;
   position: absolute;
-  top: 25vh;
+  top: 20vh;
 }
 
 .egg {
@@ -272,9 +268,9 @@ nav {
 }
 
 .duckyContainer {
-  height: 318vh;
+  height: 280vh;
   width: 100%;
-  top: 25vh;
+  top: 20vh;
   position: absolute;
 }
 
@@ -287,11 +283,18 @@ nav {
   left: 46.5vw;
 }
 
+.openEggContainer {
+  height: 280vh;
+  width: 100%;
+  top: 20vh;
+  position: absolute;
+}
+
 .openEgg {
   width: 170px;
   position: absolute;
   left: 45.9vw;
-  top: 325vh;
+  bottom: 0;
 }
 
 #introLine {
@@ -334,26 +337,25 @@ nav {
 }
 /* hover the cartoon profile and turn out real profile */
 
-/* personal statment part */
-#personalstatement {
+#introStatement {
   position: relative;
   margin-top: 200vh;
   margin-bottom: 15%;
-  padding: 10rem;
+  padding: 5rem 10rem;
   width: 100%;
   color: rgb(92, 91, 91);
   font-size: 15px;
   letter-spacing: 2px;
-  line-height: 50px;
+  line-height: 70px;
   text-shadow: 5px 1px white;
 }
 
-#personalstatement .left{
+#introStatement .left{
   width: 40%;
   text-align: right;
 }
 
-#personalstatement .right{
+#introStatement .right{
   margin-left: 60%;
   text-align: left;
 }
@@ -384,14 +386,14 @@ nav {
     width: 120px;
   }
 
-  #personalstatement {
+  #introStatement {
     height: 100vh;
     font-size: 10px;
     letter-spacing: 2px;
     line-height: 40px;
     text-shadow: 3px 1px white;
   }
-  #personalstatement h2 {
+  #introStatement h2 {
     line-height: 40px;
   }
 
