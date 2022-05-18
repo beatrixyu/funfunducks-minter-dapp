@@ -246,7 +246,7 @@ nav {
 
 .introContainer {
   align-items: center;
-  height: 500vh;
+  height: 300vh;
   width: 100%;
 }
 
@@ -301,14 +301,50 @@ nav {
   top: 0;
   background-color: #56F4E0;
   opacity: 0.8;
-  height: 500vh;
+  height: 295vh;
   width: 10px;
   z-index: -3;
   left: 50vw;
   position: absolute;
 }
 
+#bankContainer {
+  width: 100%;
+}
 
+.bankWord {
+  position: absolute;
+  z-index: 99;
+}
+
+.bankContainerStory {
+  margin-top: 25vh;
+  margin-left: 20vw;
+}
+
+.bankContainerRoadmap {
+  margin-top: 3vh;
+  margin-left: 70vw;
+}
+
+.bankContainerSkills {
+  margin-top: 3vh;
+  margin-left: 30vw;
+}
+
+.bankContainerStory a, .bankContainerRoadmap a, .bankContainerSkills a {
+  font-size: 40px;
+  background: white;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #FFC703;
+  margin-right: 30px;
+  text-shadow: 3px 3px 3px #493b05;
+}
+
+.duckBank {
+  position: relative;
+}
 
 .moneyPig {
   width: 180px;
