@@ -17,7 +17,7 @@ let oneWasa = true;
 let oneBlome = true;
 let oneDci = true;
 let oneContact = true;
-// let arrPersonal = document.getElementById("introStory").children;
+// let arrPersonal = document.getElementById("introStatement").children;
 // let arrContacts = document.getElementById('contacts').children;
 // let skillDiv = document.getElementById("skill");
 // let arrSkill = document.getElementById("skill").children;
@@ -126,13 +126,13 @@ function helloFunc1() {
     hello1 = false;
     document.getElementById("hello1").style.fontSize = "0px";
     document.getElementById("hello1").style.fontSize = "0px";
-    document.getElementById("hello1").style.marginLeft = "50%";
+    document.getElementById("hello1").style.right = "50%";
     document.getElementById("hello1").style.transition =
       "all 1s ease-in-out";
   } else if (window.pageYOffset > 150) {
     document.getElementById("hello1").style.fontSize = "80px";
     document.getElementById("hello1").style.fontSize = "80px";
-    document.getElementById("hello1").style.marginLeft = "20%";
+    document.getElementById("hello1").style.right = "65%";
   }
 }
 
@@ -156,13 +156,13 @@ function helloFunc3() {
     hello3 = false;
     document.getElementById("hello3").style.fontSize = "0px";
     document.getElementById("hello3").style.fontSize = "0px";
-    document.getElementById("hello3").style.marginLeft = "50%";
+    document.getElementById("hello3").style.right = "50%";
     document.getElementById("hello3").style.transition =
       "all 1.2s ease-in-out";
   } else if (window.pageYOffset > 250) {
     document.getElementById("hello3").style.fontSize = "80px";
     document.getElementById("hello3").style.fontSize = "80px";
-    document.getElementById("hello3").style.marginLeft = "10%";
+    document.getElementById("hello3").style.right = "80%";
   }
 }
 
@@ -186,13 +186,13 @@ function helloFunc5() {
     hello5 = false;
     document.getElementById("hello5").style.fontSize = "0px";
     document.getElementById("hello5").style.fontSize = "0px";
-    document.getElementById("hello5").style.marginLeft = "50%";
+    document.getElementById("hello5").style.right = "50%";
     document.getElementById("hello5").style.transition =
       "all 1.4s ease-in-out";
   } else if (window.pageYOffset > 350) {
     document.getElementById("hello5").style.fontSize = "80px";
     document.getElementById("hello5").style.fontSize = "80px";
-    document.getElementById("hello5").style.marginLeft = "35%";
+    document.getElementById("hello5").style.right = "65%";
   }
 }
 
@@ -216,13 +216,13 @@ function helloFunc7() {
     hello7 = false;
     document.getElementById("hello7").style.fontSize = "0px";
     document.getElementById("hello7").style.fontSize = "0px";
-    document.getElementById("hello7").style.marginLeft = "50%";
+    document.getElementById("hello7").style.right = "50%";
     document.getElementById("hello7").style.transition =
       "all 1.7s ease-in-out";
   } else if (window.pageYOffset > 500) {
     document.getElementById("hello7").style.fontSize = "80px";
     document.getElementById("hello7").style.fontSize = "80px";
-    document.getElementById("hello7").style.marginLeft = "15%";
+    document.getElementById("hello7").style.right = "75%";
   }
 }
 function helloFunc8() {
@@ -261,11 +261,11 @@ window.addEventListener("scroll", helloFunc8);
 // arrPersonal[4].style.opacity = "0";
 
 // function personalFunc() {
-//   let introStory = document
-//     .getElementById("introStory")
+//   let introStatement = document
+//     .getElementById("introStatement")
 //     .getBoundingClientRect().top;
 //   // console.log(document.documentElement.scrollTop);
-//   if (introStory < window.innerHeight / 1.5 && introStory) {
+//   if (introStatement < window.innerHeight / 1.5 && introStatement) {
 //     personal = false;
 //     setTimeout(() => {
 //       arrPersonal[0].style.left = "0px";

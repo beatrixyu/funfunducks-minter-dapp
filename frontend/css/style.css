@@ -191,7 +191,6 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-image: url(../img/topimg3.gif); */
     background-color:rgba(250, 250, 250, 0.9);
     background-repeat: no-repeat;
     letter-spacing: 3px;
