@@ -253,6 +253,9 @@ nav {
 .eggContainer {
   height: 180vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 20vh;
 }
@@ -260,14 +263,15 @@ nav {
 .egg {
   position: sticky;
   top: 30vh;
-  align-self: center;
-  height: auto;
+  height: 180px;
   width: 170px;
-  left: 45.6vw;
   z-index: 1;
 }
 
 .duckyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 280vh;
   width: 100%;
   top: 20vh;
@@ -280,10 +284,12 @@ nav {
   align-self: center;
   height: auto;
   width: 150px;
-  left: 46.5vw;
 }
 
 .openEggContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 280vh;
   width: 100%;
   top: 20vh;
@@ -293,7 +299,6 @@ nav {
 .openEgg {
   width: 170px;
   position: absolute;
-  left: 45.9vw;
   bottom: 0;
 }
 
@@ -304,7 +309,7 @@ nav {
   height: 295vh;
   width: 10px;
   z-index: -3;
-  left: 50vw;
+  left: 49vw;
   position: absolute;
 }
 
@@ -371,27 +376,26 @@ nav {
   opacity: 0;
   width: 0;
 }
-/* hover the cartoon profile and turn out real profile */
 
-#introStatement {
+#introStory {
   position: relative;
   margin-top: 200vh;
   margin-bottom: 15%;
-  padding: 5rem 10rem;
+  padding: 5rem;
   width: 100%;
   color: rgb(92, 91, 91);
   font-size: 15px;
   letter-spacing: 2px;
-  line-height: 70px;
-  text-shadow: 5px 1px white;
+  line-height: 40px;
+  text-shadow: 3px 1px white;
 }
 
-#introStatement .left{
+#introStory .left{
   width: 40%;
   text-align: right;
 }
 
-#introStatement .right{
+#introStory .right{
   margin-left: 60%;
   text-align: left;
 }
@@ -422,14 +426,14 @@ nav {
     width: 120px;
   }
 
-  #introStatement {
+  #introStory {
     height: 100vh;
     font-size: 10px;
     letter-spacing: 2px;
     line-height: 40px;
     text-shadow: 3px 1px white;
   }
-  #introStatement h2 {
+  #introStory h2 {
     line-height: 40px;
   }
 

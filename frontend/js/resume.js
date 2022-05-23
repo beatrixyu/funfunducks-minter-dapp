@@ -17,7 +17,7 @@ let oneWasa = true;
 let oneBlome = true;
 let oneDci = true;
 let oneContact = true;
-// let arrPersonal = document.getElementById("introStatement").children;
+// let arrPersonal = document.getElementById("introStory").children;
 // let arrContacts = document.getElementById('contacts').children;
 // let skillDiv = document.getElementById("skill");
 // let arrSkill = document.getElementById("skill").children;
@@ -261,11 +261,11 @@ window.addEventListener("scroll", helloFunc8);
 // arrPersonal[4].style.opacity = "0";
 
 // function personalFunc() {
-//   let introStatement = document
-//     .getElementById("introStatement")
+//   let introStory = document
+//     .getElementById("introStory")
 //     .getBoundingClientRect().top;
 //   // console.log(document.documentElement.scrollTop);
-//   if (introStatement < window.innerHeight / 1.5 && introStatement) {
+//   if (introStory < window.innerHeight / 1.5 && introStory) {
 //     personal = false;
 //     setTimeout(() => {
 //       arrPersonal[0].style.left = "0px";
