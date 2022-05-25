@@ -254,7 +254,6 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: absolute;
   top: 20vh;
 }
@@ -270,7 +269,7 @@ nav {
 .duckyContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 280vh;
   width: 100%;
   top: 20vh;
@@ -280,7 +279,6 @@ nav {
 .yellowDucky {
   position: sticky;
   top: 30vh;
-  align-self: center;
   height: auto;
   width: 150px;
 }
@@ -697,7 +695,6 @@ section {
 
 .splide {
   position: relative;
-  top: -116vh; /* do not change the number, the perfect top for splide */
   left: 5rem;
   z-index: -1;
 }
