@@ -261,8 +261,8 @@ nav {
 .egg {
   position: sticky;
   top: 30vh;
-  height: 180px;
-  width: 170px;
+  height: 150px;
+  width: auto;
   z-index: 1;
 }
 
@@ -299,6 +299,16 @@ nav {
   bottom: 0;
 }
 
+.introLineContainer {
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  height: 300vh;
+  width: 100%;
+  display: flex;
+}
+
 #introLine {
   top: 0;
   background-color: #56F4E0;
@@ -306,7 +316,6 @@ nav {
   height: 295vh;
   width: 10px;
   z-index: -3;
-  left: 49vw;
   position: absolute;
 }
 
