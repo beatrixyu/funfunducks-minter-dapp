@@ -21,7 +21,7 @@ let oneContact = true;
 // let arrContacts = document.getElementById('contacts').children;
 // let skillDiv = document.getElementById("skill");
 // let arrSkill = document.getElementById("skill").children;
-// let arrExperience = document.querySelector("#experience").children;
+ let arrExperience = document.querySelector("#experience").children;
 // let arrWasatea = document.getElementById("wasaIntro").children;
 // let arrWasateaHead = document.getElementById("project").children;
 // let arrWasaLogo = document.getElementById("bigWasaLogoDiv").children;
@@ -330,51 +330,51 @@ window.addEventListener("scroll", helloFunc8);
 
 // //experience part function
 
-// arrExperience[0].style.left = "-500px";
-// arrExperience[0].style.opacity = "0";
-// arrExperience[1].style.right = "-500px";
-// arrExperience[1].style.opacity = "0";
-// arrExperience[2].style.opacity = "0";
-// arrExperience[3].style.opacity = "0";
-// arrExperience[4].style.opacity = "0";
-// arrExperience[5].style.opacity = "0";
+ arrExperience[0].style.left = "-500px";
+arrExperience[0].style.opacity = "0";
+arrExperience[1].style.right = "-500px";
+arrExperience[1].style.opacity = "0";
+arrExperience[2].style.opacity = "0";
+arrExperience[3].style.opacity = "0";
+arrExperience[4].style.opacity = "0";
+arrExperience[5].style.opacity = "0";
 
-// function experienceFunc() {
-//   let experienceStat = document
-//     .getElementById("experience")
-//     .getBoundingClientRect().top;
-//   if (experienceStat < window.innerHeight / 1.7 && experience) {
-//     experience = false;
-//     setTimeout(() => {
-//       arrExperience[0].style.right = "100px";
-//       arrExperience[0].style.opacity = "1";
-//       arrExperience[0].style.transition = "all 0.2s ease-in-out";
-//     }, 500);
-//     setTimeout(() => {
-//       arrExperience[1].style.opacity = "1";
-//       arrExperience[1].style.transition = "all 0.5s ease-in-out";
-//     }, 1000);
-//     setTimeout(() => {
-//       arrExperience[2].style.opacity = "1";
-//       arrExperience[2].style.transition = "all 1s ease-in-out";
-//     }, 1500);
+function experienceFunc() {
+  let experienceStat = document
+    .getElementById("experience")
+    .getBoundingClientRect().top;
+  if (experienceStat < window.innerHeight / 1.7 && experience) {
+    experience = false;
+    setTimeout(() => {
+      arrExperience[0].style.right = "100px";
+      arrExperience[0].style.opacity = "1";
+      arrExperience[0].style.transition = "all 0.2s ease-in-out";
+    }, 500);
+    setTimeout(() => {
+      arrExperience[1].style.opacity = "1";
+      arrExperience[1].style.transition = "all 0.5s ease-in-out";
+    }, 1000);
+    setTimeout(() => {
+      arrExperience[2].style.opacity = "1";
+      arrExperience[2].style.transition = "all 1s ease-in-out";
+    }, 1500);
 
-//     setTimeout(() => {
-//       arrExperience[3].style.opacity = "1";
-//       arrExperience[3].style.transition = "all 1.2s ease-in-out";
-//     }, 2000);
+    setTimeout(() => {
+      arrExperience[3].style.opacity = "1";
+      arrExperience[3].style.transition = "all 1.2s ease-in-out";
+    }, 2000);
 
-//     setTimeout(() => {
-//       arrExperience[4].style.opacity = "1";
-//       arrExperience[4].style.transition = "all 1.5s ease-in-out";
-//     }, 2500);
-//     setTimeout(() => {
-//       arrExperience[5].style.opacity = "1";
-//       arrExperience[5].style.transition = "all 1.7s ease-in-out";
-//     }, 3000);
-//   }
-// }
-// window.addEventListener("scroll", experienceFunc);
+    setTimeout(() => {
+      arrExperience[4].style.opacity = "1";
+      arrExperience[4].style.transition = "all 1.5s ease-in-out";
+    }, 2500);
+    setTimeout(() => {
+      arrExperience[5].style.opacity = "1";
+      arrExperience[5].style.transition = "all 1.7s ease-in-out";
+    }, 3000);
+  }
+}
+window.addEventListener("scroll", experienceFunc);
 
 // // window.addEventListener("scroll", headerMove);
 
